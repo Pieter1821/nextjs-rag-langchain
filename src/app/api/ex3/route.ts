@@ -41,6 +41,7 @@ export async function POST(req: Request) {
             apiKey: process.env.OPENAI_API_KEY!,
             model: 'gpt-3.5-turbo',
             temperature: 0.8,
+            maxTokens:500,
         });
 
         /**

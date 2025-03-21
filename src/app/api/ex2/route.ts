@@ -42,6 +42,7 @@ export async function POST(req: Request) {
             model: 'gpt-3.5-turbo',
             temperature: 0.8,
             verbose: true,
+            maxTokens: 500,
         });
 
         /**
